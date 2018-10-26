@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/slide_image"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/slide_header"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_below="@+id/slide_image"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:text="Gezegen Adı"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/slide_kilo"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_below="@+id/slide_header"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:text="Kilo Bilgisi"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/slide_desc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@id/slide_kilo"
+        android:layout_marginTop="1dp"
+        android:fontFamily="monospace"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16sp"
+        tools:text="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır." />
+</RelativeLayout>
