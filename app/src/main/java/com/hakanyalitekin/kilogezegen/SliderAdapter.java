@@ -3,8 +3,6 @@ package com.hakanyalitekin.kilogezegen;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,8 +11,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class SliderAdapter extends PagerAdapter {
-
-    //Buraya aktarmak istiyorum. Hesaplamaları yaptıktan sonra dizi olaşturacağım. O kısım zaten dersinizde mevcut. sadece buraya atamadım bir türlü.
 
     Context context;
     LayoutInflater layoutInflater;
